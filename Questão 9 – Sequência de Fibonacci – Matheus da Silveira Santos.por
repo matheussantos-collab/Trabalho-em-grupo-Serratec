@@ -19,7 +19,7 @@ programa
 
         para(i = 1; i <= n; i++)
         {
-            escreva(a, " ")
+            escreva(a, " \n")
 
             c = a + b
             a = b
