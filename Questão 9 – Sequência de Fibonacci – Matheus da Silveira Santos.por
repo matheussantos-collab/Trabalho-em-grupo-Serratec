@@ -13,7 +13,7 @@ programa
         inteiro c
 
         escreva("Digite a quantidade de termos: ")
-        leia(n)
+        leia(N)
 
         escreva("Sequência de Fibonacci:\n")
 
