@@ -7,7 +7,7 @@ programa
 {
     funcao inicio()
     {
-        inteiro n, i
+        inteiro N, i
         inteiro a = 0
         inteiro b = 1
         inteiro c
@@ -17,7 +17,7 @@ programa
 
         escreva("Sequência de Fibonacci:\n")
 
-        para(i = 1; i <= n; i++)
+        para(i = 1; i <= N; i++)
         {
             escreva(a, " \n")
 
