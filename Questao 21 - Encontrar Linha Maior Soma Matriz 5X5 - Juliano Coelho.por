@@ -8,23 +8,23 @@
 programa {
 funcao inicio() {
 // Variaveis ============================================
-inteiro resultado = 0 // Resultado maior soma 
+inteiro resultado = 0 // Resultado final maior soma 
 inteiro resultadoTemp = 0 // Variavel auxilizar para calculo total por linha
-inteiro linhaT = 0 // Variavel temporaria para controlar numero da linha
-inteiro linhaFinal = 0 // Variavel com o número da linha procurada
+inteiro linhaT = 0 // Variavel tauxiliar para controlar numero da linha
+inteiro linhaFinal = 0 // Variavel com o número da linha com maior somar
 inteiro resultados[5] // Vetor para os resultados
 // Matriz 5 X 5 
 inteiro matrizNumeros[5][5]
 // Código ===============================================
 // Pede Valores Para Matriz 5 X 5
 para(inteiro i = 0;i < 5; i++){
-// Elementos da matriz o i equivale a coluna
+// Elementos da matriz: i equivale a coluna
 resultadoTemp = 0
 para(inteiro x = 0; x < 5; x++) {
-// Pede valores a usuaiio
+// Pede valores ao usuário
 escreva("Preencha os valores para formar uma matriz Linha ["+i+"] Coluna ["+x+"]: ")
 leia(matrizNumeros[i][x])
-// Elementos da matriz o x equivale a linha
+// Elementos da matriz: x equivale a linha
 resultadoTemp += matrizNumeros[i][x]
 linhaT = i // Pega linha atual
 }
