@@ -37,18 +37,22 @@ cadeia textoTempo
 // Código ===============================================
 // Solicita entrada de dados
 escreva("------------------------------------------------------\n")
-escreva("| Digite um texto para ser invertido: |\n")
+escreva("| Digite um texto para ser invertido:                |\n")
 escreva("------------------------------------------------------\n")
 // Captura dados
 leia(textoBase)
 // Chama função inverte string
 textoTempo = inverteCadeia(textoBase)
+// Limpa tela
+limpa()
+escreva("---------------------------------------------------------------------------------------------------\n")
 se(textoBase == textoTempo){
-  escreva("Texto Original: "+textoBase+" é igual ao Texto Invertido: ",textoTempo," é palíndromo")
+  escreva("| Texto Original: "+textoBase+" é igual ao Texto Invertido: ",textoTempo," é um palíndromo      |\n")
 }
 senao{
-  escreva("Texto Original: "+textoBase+" é diferente ao Texto Invertido: ",textoTempo," não é palíndromo")
+  escreva("| Texto Original: "+textoBase+" é diferente ao Texto Invertido: ",textoTempo," não é palíndromo |\n")
 }
+escreva("---------------------------------------------------------------------------------------------------\n")
 }
 }
 
