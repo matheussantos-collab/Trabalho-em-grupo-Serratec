@@ -35,7 +35,7 @@ cadeia textoBaseParte
 // Código ===============================================
 // Solicita entrada de dados
 escreva("------------------------------------------------------\n")
-escreva("| Digite um texto para ser invertido: |\n")
+escreva("| Digite um texto para ser invertido:                |\n")
 escreva("------------------------------------------------------\n")
 // Captura dados
 leia(textoBase)
