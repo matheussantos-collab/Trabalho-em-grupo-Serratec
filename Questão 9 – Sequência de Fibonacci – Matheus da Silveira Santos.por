@@ -7,19 +7,19 @@ programa
 {
     funcao inicio()
     {
-        inteiro n, i
+        inteiro N, i
         inteiro a = 0
         inteiro b = 1
         inteiro c
 
         escreva("Digite a quantidade de termos: ")
-        leia(n)
+        leia(N)
 
         escreva("Sequência de Fibonacci:\n")
 
-        para(i = 1; i <= n; i++)
+        para(i = 1; i <= N; i++)
         {
-            escreva(a, " ")
+            escreva(a, " \n")
 
             c = a + b
             a = b
