@@ -5,31 +5,33 @@ programa
         inteiro posicoes[10]
         inteiro i, j, aux
 
-      
+      // leitura do vetor
         para(i = 0; i < 10; i++)
         {
             escreva("Digite um número: ")
             leia(posicoes[i])
         }
-        para(i = 0; i < 10 - 1; i++) 
-        {
-            para(j = 0; j < 10 - 1 - i; j++)
-            {
-                se(posicoes[j] > posicoes[j + 1])
-                {
-                 
-                    aux = posicoes[j]
-                    posicoes[j] = posicoes[j + 1]
-                    posicoes[j + 1] = aux
-                }
-            }
-        }
 
-       
-        escreva("Ordem Crescente: ")
+        //Ordenação Simplificada
+    	para(i=0;i<9;i++)
+        {
+			para(j=i+1;j<10;j++){
+
+				se(posicoes[i] > posicoes[j]){
+					aux = posicoes[i]
+					posicoes[i] = posicoes[j]
+					posicoes[j] = aux
+
+
+				}
+			}
+		}
+
+       // Mostrar Vetor Ordenado
+        escreva("Ordem Crescente: "+"\n")
         para(i = 0; i < 10; i++)
         {
-            escreva(posicoes[i], " ")
+            escreva(posicoes[i], "\t")
         }
     }
 }
