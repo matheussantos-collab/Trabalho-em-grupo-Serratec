@@ -6,7 +6,7 @@ sem usar a função pronta de potenciação ou biblioteca.*/
 
 programa
 {
-	
+// Função de potencia para Calculo 
 funcao inteiro potencia(inteiro base,inteiro expoente){
 	inteiro resultado = 1
 	para(inteiro i = 1; i <= expoente; i++){
@@ -15,7 +15,7 @@ funcao inteiro potencia(inteiro base,inteiro expoente){
 retorne resultado	
 
 
-		
+	// Função: inicio (função principal)-  Receber os dados do usuário e mostrar o resultado
 	}
 	funcao inicio()
 	{
