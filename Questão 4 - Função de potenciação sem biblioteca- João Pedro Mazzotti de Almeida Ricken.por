@@ -1,3 +1,9 @@
+/*Questão 4 - Função de potenciação sem 
+biblioteca
+ Descrição: Escreva uma função chamada potencia() que recebe dois 
+números inteiros, base e expoente, e retorna o valor da potenciação 
+sem usar a função pronta de potenciação ou biblioteca.*/
+
 programa
 {
 	
@@ -35,3 +41,4 @@ escreva("O Resultado da potencia é : ",potencia(base,expoente))
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
+
