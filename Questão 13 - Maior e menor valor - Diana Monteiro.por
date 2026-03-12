@@ -29,5 +29,6 @@ programa {
     escreva("\n========================================")
     escreva("\n> MAIOR VALOR ENCONTRADO: ", maiorValor)
     escreva("\n> MENOR VALOR ENCONTRADO: ", menorValor)
-    escreva("\n========================================\n")  }
+    escreva("\n========================================\n")  
+  }
 }
