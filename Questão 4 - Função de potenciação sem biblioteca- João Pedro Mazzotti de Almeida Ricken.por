@@ -42,3 +42,4 @@ escreva("O Resultado da potencia é : ",potencia(base,expoente))
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
 
+
