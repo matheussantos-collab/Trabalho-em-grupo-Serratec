@@ -7,12 +7,12 @@ programa
 	inteiro numero[10] , pares[10] , impares[10]
 	qtdpares =0
 	qtdimpares=0
-
+ // Leitura dos numeros 
 	para(i=0 ; i<10;i++){
 escreva("Digite um numero : ")
 leia(numero[i])		
 	
-
+// Verificar se é par ou impar
 	se(numero[i] % 2== 0){
 		pares[qtdpares] =numero[i]	
 	qtdpares ++
@@ -24,10 +24,12 @@ leia(numero[i])
 		
 	}
 	}
+	//Exibição dos pares
 	escreva("Numeros pares : ")
 	para(i=0;i<qtdpares;i++){
 	escreva(pares[i]+ " ")
 	}
+	//Exibição dos impares
 	escreva("\nNumeros impares : ")
 	para(i=0;i<qtdimpares;i++){
 		escreva(impares[i]+" ")
