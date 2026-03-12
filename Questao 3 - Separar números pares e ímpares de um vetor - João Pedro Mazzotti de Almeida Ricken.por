@@ -25,12 +25,12 @@ leia(numero[i])
 	}
 	}
 	//Exibição dos pares
-	escreva("Numeros pares : ")
+	escreva("Numeros pares : "+"\n")
 	para(i=0;i<qtdpares;i++){
 	escreva(pares[i]+ " ")
 	}
 	//Exibição dos impares
-	escreva("\nNumeros impares : ")
+	escreva("\nNumeros impares : "+"\n")
 	para(i=0;i<qtdimpares;i++){
 		escreva(impares[i]+" ")
 	}
