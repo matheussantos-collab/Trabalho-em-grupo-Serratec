@@ -1,4 +1,4 @@
-# 📚 Trabalho em Grupo – Portugol | Serratec
+# 📚 Trabalho em Grupo – Lógica de Programação – Portugol | Serratec
 
 Repositório criado para armazenar a resolução das atividades propostas no curso **Serratec**, utilizando a linguagem **Portugol**.
 
